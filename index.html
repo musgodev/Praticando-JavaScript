@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script src="index.js" defer></script>
+    
+    <!-- Estilo Proprio CSS -->
+    <link href="style.css" rel="stylesheet">
+    
+    <title>Experimentações 10/03</title>
+</head>
+<body>
+    <div class="conteiner-row">
+        
+        <div class="box-elemento1">
+            <h1>Jogo da Adivinhação</h1>
+            <p>Tente acertar qual numero será gerado de 0 a 10.</p>
+            <input type="number" id="palpiteEnviado" class="input-edit"></input>
+            <button class="button-edit" onclick="receberPalpite()">Enviar</button>
+            <h2 class="edit-resultado" id="imprimirPalpite"></h2>
+        </div>
+        
+        <div class="box-elemento2">
+          <h1>Calculadora de média</h1>
+            <p>Descubra se foi aprovado ou reprovado inserindo suas notas.</p>
+            <input type="number" id="NotaEnviada" placeholder="Insira a nota" class="input-edit"></input>
+            <input type="number" id="notaEnviada2" placeholder="Insira a nota" class="input-edit"></input>
+            <button class="button-edit" onclick="receberNotas()">Enviar</button>
+            <h2 class="edit-resultado" id="imprimirResultado"></h2>
+            
+
+        </div>
+        
+        <div class="box-elemento3">
+            <h1>Conversor de Temperatura</h1>
+            <p>Insira um valor em <strong>Fahrenheit</strong> para obter um valor em <strong>Celsius</strong>.</p>
+            <input type="number" id="tempEnviada" class="input-edit"></input>
+            <button class="button-edit" onclick="receberTemp()">Enviar</button>
+            <h2 class="edit-resultado" id="imprimirCelsius"></h2>
+
+        </div>
+
+
+    </div>
+</body>
+</html>

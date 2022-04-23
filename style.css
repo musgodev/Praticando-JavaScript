@@ -1,0 +1,161 @@
+
+/* CONFIGS GLOBAIS */
+
+html, body { 
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    
+}
+
+body { 
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2, h3, p { 
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* CONTEINER E BOX-ELEMENTOS */
+
+.conteiner-row { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.box-elemento1 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    
+}
+
+.box-elemento1  p{ 
+    text-align: center;
+    width: 60%;
+    color: white;
+    
+}
+
+.box-elemento1  h1{ 
+    text-align: center;
+    width: 60%;
+    color: white;
+    
+}
+
+.box-elemento2 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    
+}
+
+.box-elemento2  p{ 
+    text-align: center;
+    width: 60%;
+    color: white;
+    
+}
+
+.box-elemento2  h1{ 
+    text-align: center;
+    width: 60%;
+    color: white;
+    
+}
+
+.box-elemento3 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    
+}
+
+.box-elemento3  p{ 
+    text-align: center;
+    width: 60%;
+    color: white;
+    
+}
+
+.box-elemento3  h1{ 
+    text-align: center;
+    width: 60%;
+    color: white;
+    
+}
+
+
+/* EDITS */
+
+.input-edit {
+    height: 22px;
+    border-radius: 20px;
+    border: 2px solid orange;
+    background: black;
+    color: white;
+    text-align: center;
+
+}
+
+.button-edit { 
+    height: 25px;
+    width: 80px;
+    border-radius: 20px;
+    border: none;
+    background: orange;
+}
+
+.button-edit:hover { 
+    height: 25px;
+    width: 80px;
+    border-radius: 20px;
+    border: 2px solid orange;
+    background: black;
+    color: white;
+    transition: all 0.7s;
+}
+
+.edit-resultado {
+  color:white;
+  text-align:center;
+  font-size: 18px;
+  width: 50%;
+}
